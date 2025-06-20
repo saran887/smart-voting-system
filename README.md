@@ -19,7 +19,7 @@ This is a Face Recognition-based Smart Voting System built with Python, OpenCV, 
 
 ```
 smart_voting/
-├── main.py                  # Main app: face detection, registration, voting
+├── face.py                  # Main app: face detection, registration, voting
 ├── database.py              # View/delete saved images and database entries
 ├── vote_count.py            # View and delete all vote counts
 ├── voter_faces.db           # SQLite database storing face data and votes
@@ -57,7 +57,7 @@ Or follow the official [face_recognition installation guide](https://github.com/
 
 ### 1. Run the main application:
 ```bash
-python main.py
+python face.py
 ```
 - Press **S** to register a voter and vote.
 - Press **Q** to quit and optionally reset the voter counter.
